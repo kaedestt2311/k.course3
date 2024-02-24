@@ -23,7 +23,7 @@ public class Main {
             String name = null;
             int length = name.length();
             System.out.println("可愛い名前ですね");
-        }catch(Exception e){
+        }catch(NullPointerException e){
             System.out.println("エラー発生！nameがnullです");
             e.printStackTrace();
         }finally {
